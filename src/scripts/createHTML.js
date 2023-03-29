@@ -1,10 +1,11 @@
+import { createRetailerDropdown } from "./retailerList.js"
 
 
 export const createHTML = () => {
     return `
     
-    Retailer Dropdown Go Here
-    Retailer Info Go Here
+    ${createRetailerDropdown()}
+    <section id='retailer-info'>RETAILER INFO GO HERE</section>
     
     `
   

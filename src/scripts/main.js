@@ -1,4 +1,5 @@
 import { fetchDistributors, fetchDistributorStock, fetchFlowers, fetchNurseries, fetchNurseryStock, fetchRetailers } from "./dataAccess.js";
+import { createHTML } from "./createHTML.js";
 
 const mainContainer = document.querySelector("#container");
 

@@ -44,7 +44,7 @@ export const getNurseries = () => {
 export const fetchNurseryStock = () => {
     return fetch(`${API}/nurseryStock`)
         .then(response => response.json())
-        .then((responseArray) => { applicationState.nurseryStocks = responseArray })
+        .then((responseArray) => { applicationState.nurseryStock = responseArray })
 }
 
 export const getNurseryStock = () => {
@@ -59,4 +59,10 @@ export const fetchFlowers = () => {
 
 export const getFlowers = () => {
     return applicationState.flowers.map(obj => ({ ...obj }))
+}
+
+export const setRetailer = (id) => {
+    applicationState.selectedRetailer = id
+    console.log(`retailer #${id} has been selected`)
+    document.dispatchEvent(new CustomEvent("stateChanged"))
 }
