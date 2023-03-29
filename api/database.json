@@ -1,0 +1,168 @@
+{
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Flower Shop 1",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Flower Shop 2",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Flower Shop 3",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Flower Shop 4",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 1
+        },
+        {
+            "id": 5,
+            "name": "Flower Shop 5",
+            "address": "100 Main St",
+            "city": "Huntington",
+            "state": "WV",
+            "distributorId": 2
+        }
+    ],
+
+    
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Distributor 1"
+        },
+        {
+            "id": 2,
+            "name": "Distributor 2"
+        },
+        {
+            "id": 3,
+            "name": "Distributor 3"
+        }
+    ],
+
+    "distributorStock": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 5
+        }
+    ],
+
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Nursery 1"
+        },
+        {
+            "id": 2,
+            "name": "Nursery 2"
+        },
+        {
+            "id": 3,
+            "name": "Nursery 3"
+        },
+        {
+            "id": 4,
+            "name": "Nursery 4"
+        },
+        {
+            "id": 5,
+            "name": "Nursery 5"
+        }
+    ],
+
+    "nurseryStock": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "FlowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 2,
+            "FlowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 3,
+            "FlowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 4,
+            "FlowerId": 4
+        },
+        {
+            "id": 5,
+            "nurseryId": 5,
+            "FlowerId": 5
+        }
+    ],
+
+    "flowers": [
+        {
+            "id": 1,
+            "name": "rose",
+            "color": "red"
+        },
+        {
+            "id": 2,
+            "name": "gerbera",
+            "color": "pink"
+        },
+        {
+            "id": 3,
+            "name": "sunflower",
+            "color": "yellow"
+        },
+        {
+            "id": 4,
+            "name": "marigold",
+            "color": "orange"
+        },
+        {
+            "id": 5,
+            "name": "tulip",
+            "color": "purple"
+        }
+    ]
+
+}
